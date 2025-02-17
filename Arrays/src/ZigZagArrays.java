@@ -16,14 +16,8 @@ public class ZigZagArrays {
                 array1[i] = input[1];
             }
         }
-        for (int i = 0; i < array1.length; i++) {
-            System.out.printf("%s ", array1[i]);
 
-        }
-        System.out.println();
-        for (int i = 0; i < array2.length; i++) {
-            System.out.printf("%s ", array2[i]);
-
-        }
+        System.out.print(String.join(" ", array1));
+        System.out.printf("\n%s", String.join(" ", array2));
     }
 }
